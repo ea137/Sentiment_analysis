@@ -1,0 +1,47 @@
+
+
+Overview: 
+In this Jupyter Notebook you will learn how TfidfVectorizer works by designing a
+countVectorizer, TfidifTransformer, and Normalization Classes from scratch, you 
+will also  learn how to preprocess and tokenize text data (Using Porter Stemmer),
+and finaly use TfidfVectorizer to vectorize the reviews and logistic regression 
+to classify them with a +93% accuracy.
+At the end of the notebook, you will be able to write your review and see if it 
+will be predicted to be a good or bad review !!
+
+Dataset:
+This dataset contains movie reviews along with their associated binary
+sentiment polarity labels. It is intended to serve as a benchmark for
+sentiment classification.
+
+Files: 
+**Sentiment Analysis.ipynb : jupyter notebook containing the analysis.
+**when you extract the train and test compressed files you will find are two top level
+directories test/ and train/ which both contain positive and negative reviews in pos/
+and neg/ respectively. for your convenience you will find them both in zip, and tar.xz
+formats.
+
+Files produced when running the notebook:
+**LR_model.sav : saved Logistic Regression model.
+**training_x_y.feat : sparse matrices and their labels stored in a LIBSVM format (to learn more
+about it, visit http://www.csie.ntu.edu.tw/~cjlin/libsvm/) the sparse matrices are the tfidf
+values of the learned words.
+**vocabulary.json : learnt words and their indices in the sparse matrix saved as a json file.
+
+reference:
+@InProceedings{maas-EtAl:2011:ACL-HLT2011,
+  author    = {Maas, Andrew L.  and  Daly, Raymond E.  and  Pham, Peter T.  and  Huang, Dan  and  Ng, Andrew Y.  and  Potts, Christopher},
+  title     = {Learning Word Vectors for Sentiment Analysis},
+  booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
+  month     = {June},
+  year      = {2011},
+  address   = {Portland, Oregon, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {142--150},
+  url       = {http://www.aclweb.org/anthology/P11-1015}
+}
+
+contact: 
+if you have any issues contact me at ea137@duke.edu
+
+
