@@ -93,7 +93,7 @@ positive_words = 'positive '
 st.sidebar.subheader("Write your own words and see where it's classified in the Word Cloud")
 if not st.sidebar.checkbox('Hide Word cloud',True):
     word = st.text_input('Your word','write words separated with space')
-    if word != 'write words separated with comma':
+    if word != 'write words separated with space':
         word = word.split()
         senti = np.array(clf.predict(tfidf.transform(word)))
         positive_words += ' '.join(np.array(word)[senti ==1])
