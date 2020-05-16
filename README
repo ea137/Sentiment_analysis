@@ -28,6 +28,7 @@ Files produced when running the notebook:
 **training_x_y.feat : sparse matrices and their labels stored in a LIBSVM format (to learn more
 about it, visit http://www.csie.ntu.edu.tw/~cjlin/libsvm/) the sparse matrices are the tfidf
 values of the learned words.
+**tfidf.sav : tfidif vectorizer
 **vocabulary.json : learnt words and their indices in the sparse matrix saved as a json file.
 
 reference:
