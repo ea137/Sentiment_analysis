@@ -22,6 +22,9 @@ Files:
 directories test/ and train/ which both contain positive and negative reviews in pos/
 and neg/ respectively. for your convenience you will find them both in zip, and tar.xz
 formats.
+**comment_test.py : after runing the notebook, you will have access to an interactive
+dashbord. you can run this code by installing streamlit. and opening it with the following
+command : streamlit run comment_test.py . more on https://docs.streamlit.io/.
 
 Files produced when running the notebook:
 **LR_model.sav : saved Logistic Regression model.
