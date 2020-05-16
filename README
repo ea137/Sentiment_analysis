@@ -1,12 +1,17 @@
 
 
 Overview: 
-In this Jupyter Notebook you will :
+The project is divided into Two parts : 
+A Jupyter Notebook where you will :
 **Learn how TfidfVectorizer works by designing a countVectorizer, TfidifTransformer, 
   and Normalization Classes from scratch
 **Learn how to preprocess and tokenize text data (Using Porter Stemmer)
 **Use TfidfVectorizer to vectorize the reviews
 **Classify the reviews with logistic regression with a +93% accuracy.
+
+An Interactive Dashboard where you will :
+**be able to test your own work !
+*NB : the Dashboard is contingent on the files produced by the jupyter notebook.
 
 At the end of the notebook, you will be able to write your review and see if it 
 will be predicted to be a good or bad review !!
